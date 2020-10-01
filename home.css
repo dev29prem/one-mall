@@ -1,0 +1,206 @@
+body{
+	margin: 0;
+	padding: 130px;
+}
+.container{
+	text-align: right;
+	margin-top: -120px;
+}
+.btn{
+	border:transparent;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: ""acromregular"";
+	cursor: pointer;
+	margin: 10px;
+	transition: 1.0s;
+	position: relative;
+	overflow: hidden;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+	color: #3498db;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover{
+	color: #fff;
+}
+.btn::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 1.0s;
+}
+.btn1::before,.btn2::before,.btn3::before,.btn4::before,.btn5::before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+	.btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before,.btn5:hover::before{
+		height: 180%;
+	}
+
+/*slide buttons */
+body 2{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+.slidershow{
+	width: 1350px;
+	height: 570px;
+	overflow: hidden;
+}
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-48%);
+}
+.navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+.bar{
+	width: 50px;
+	height: 10px;
+	border:2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover{
+	background: #fff;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -20%
+}
+
+/*slide buttons finish */
+.fashion{
+	margin-top: 590px;
+	width: 1350px;
+	height: 570px;
+	margin-left: -46px;
+}
+.cinema{
+	margin-left: -46px;
+	height: 500px;
+	width: 673px;
+}
+.dine{
+	height: 500px;
+	width: 673px;
+	margin-top: 0;
+	margin-right: -46px;
+}
+.csoon{
+	margin-left: -46px;
+}
+.eve{
+	margin-left: -46px;
+}
+
+/*brands*/
+
+.brandsword{
+	font-family:Pristina;
+}
+.normalfontfamily{
+	font-family:Calibri;
+}
+.size22px{
+	font-size:22px;
+}
+input[type=text] {
+			 	width:130px;
+ 			 	box-sizing: border-box;
+ 			 	border: 2px solid #ccc;
+ 			 	border-radius: 4px;
+ 			 	font-size: 16px;
+ 			 	background-color: white;
+			  	background-image: url('searchicon.png');
+ 			 	background-position: 10px 10px;
+ 			 	background-repeat: no-repeat;
+ 			 	padding: 12px 20px 12px 40px;
+ 			 	-webkit-transition: width 0.4s ease-in-out;
+ 			 	transition: width 0.4s ease-in-out;
+ 			 	align-content: left;
+			}
+
+			input[type=text]:focus {
+  				width: 50%;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
